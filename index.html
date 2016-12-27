@@ -7,7 +7,9 @@
 
     <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/sticky-footer.css">
 
+    <script src="https://use.fontawesome.com/fe0e0c170d.js"></script>
     <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
@@ -15,16 +17,16 @@
 <body style="background-color: #ffffff;">
     <div class="container" style="background-color: #ffffff">
         <div class="page-header">
-            <div class="jumbotron" style="background-color: #3e3f3a">   
-                <h1 style="color:#f8f5f0;">Marcus Jefferson</h1>
-                <p style="color:#f8f5f0; font-size: 13px;">Student, Back End Developer, Friend</p>
-                <blockquote style="color:#f8f5f0">
+            <div class="jumbotron" style="background-color: #ffffff">   
+                <h1>Marcus Jefferson</h1>
+                <p style="font-size: 13px;">Student, Back End Developer, Friend</p>
+                <blockquote>
                     <p style="font-family: 'Maven Pro', sans-serif;">"My favorite things in life don’t cost any money. It’s really clear that the most precious resource we all have is time."</p>
-                    <small style="color:#f8f5f0">Steve Jobs</small>
+                    <small>Steve Jobs</small>
                 </blockquote>
             </div>
         </div>
-        <div class="bs-docs-section clearfix">
+        <div class="bs-docs-section">
             <div class="row">
                 <div class="col-md-2 col-md-offset-5">
                     <h1 style="color:#3e3f3a">Education</h1>
@@ -32,7 +34,9 @@
             </div>
             <div class="row">
                 <div class="col-md-2">
-                    <img src="img/uiucLogo.jpg" alt="UIUCLOGO" class="img-rounded" style="width:100px; height:100px">
+                    <a href="http://illinois.edu/">
+                        <img src="img/uiucLogo.jpg" alt="UIUCLOGO" class="img-rounded" style="width:100px; height:120px">
+                    </a>
                 </div>
                 <div class="col-md-8">
                     <h3 style="color:#3e3f3a">University of Illinois at Urbana-Champaign</h3>
@@ -49,5 +53,73 @@
                 </div>
             </div>   
         </div>
+        <br>
+        <div class="bs-docs-section clearfix">
+            <div class="row">
+                <div class="col-md-2 col-md-offset-5">
+                    <h1>Projects</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h3>Courser: an elective exploring project</h3>
+                    <br>
+                    <p>Courser started as a learning platform for me to get used to the MEAN stack and learn
+                    a bit about the DOM tree. It's grown quite a bit from an idea I had to a small functioning
+                    website. The website uses MongoDB's built in search in order to find school courses that relate
+                    to the search terms. This part of the site actually works fairly well, although I've wanted 
+                    to change the way it searches so that it's more accurate. I'm soon planning on making a blog
+                    for this site so I can track my progress. This is the biggest project I've worked on so far.
+                    I'm proud that I've created it all on my own and I hope that when I finish it, people will enjoy
+                    using it as much as I will.</p>
+                    <img src="img/courserGif.gif" alt="Computer Man" class="img-rounded" style="margin:auto; display:block;">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="img/pythonIcon.jpg" alt="Pyhton Icon" class="img-rounded" style="margin:auto; display:block; width:160px;height:130px;">
+                </div>
+                <div class="col-md-8">
+                    <h3>One a Day</h3>
+                    <br>
+                    <p>After failing nearly every technical interview I had during the fall 2016 semester, I've
+                    pledged to myself that I will complete at least 1 coding practice problem every day. This
+                    is something that will hopefully sharpen my interviewing and general coding skills alike. Although
+                    this isn't a typical project that would manifest itself into something tangible, I still 
+                    consider it an outstanding use of time for myself. I've choosen to complete everything in python
+                    as I believe this language is extremely versitle and would benifit me the most.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="footer" style="color:#f8f5f0;">
+        <div class="col-md-8 col-md-offset-2" style="padding-top: 20px;">
+            <div class="row">
+                <div class="col-md-4" style="text-align: center; font-size: 14px;">
+                    <a href="https://github.com/MJUIUC">
+                        <i class="fa fa-github fa-5x" aria-hidden="true" style="padding-bottom: 10px"></i>
+                    </a>
+                    <p>GitHub</p>
+                </div>
+                <div class="col-md-4" style="text-align: center; font-size: 14px;">
+                    <a href="resume.pdf">
+                        <i class="fa fa-file-text fa-4x" aria-hidden="true" style="padding-bottom: 22px"></i>
+                    </a>
+                    <p>Resume</p>
+                </div>
+                <div class="col-md-4" style="text-align: center; font-size: 14px;">
+                    <a href="mjeffe6@illinois.edu">
+                        <i class="fa fa-envelope-o fa-4x" aria-hidden="true" style="padding-bottom: 22px"></i>
+                    </a>
+                    <p>Email</p>
+                </div>
+            </div>            
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2" style="text-align: center">
+                <h6>Page created and maintained by Marcus Jefferson</h6>
+            </div>
+        </div>
     </div>
 </body>
+</html>
