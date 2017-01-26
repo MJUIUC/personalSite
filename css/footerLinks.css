@@ -1,0 +1,11 @@
+.footer{
+	color:#fff;
+	padding-top: 50px;
+	width: 100%
+}
+.footer a,a:link{
+	color:#fff;
+}
+.footer a:hover{
+	color:#000;
+}
